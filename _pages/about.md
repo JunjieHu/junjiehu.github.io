@@ -6,7 +6,7 @@ description: <a href="https://www.lti.cs.cmu.edu/">Language Technologies Institu
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: junjie.png
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
