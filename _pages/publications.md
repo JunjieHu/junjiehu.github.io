@@ -7,7 +7,7 @@ years: [1956, 1950, 1935, 1905]
 nav: true
 ---
 
-== Conferences
+<h2>Conferences</h2>
 <div class="publications">
 
 {% for y in page.years %}
@@ -18,7 +18,7 @@ nav: true
 </div>
 
 
-== Preprints
+<h2>Preprints</h2>
 <div class="publications">
 
 {% for y in page.years %}
