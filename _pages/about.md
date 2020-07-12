@@ -16,6 +16,6 @@ news: true
 social: true
 ---
 
-I am a PhD student in Language Technologies Institute, School of Computer Science at Carnegie Mellon University (CMU), working with [Jaime Carbonell](https://www.cs.cmu.edu/~jgc/) and [http://www.phontron.com/ Graham Neubig]. I am fortunately supported by Research Fellowship at CMU. I spent the summer and fall of 2019 interning at Google AI (Translate Team) on cross-lingual transfer learning research, and interned at Microsoft Research Redmond on multi-modal machine learning research during the summer of 2018. Prior to joining CMU, I earned my M.Phil. degree at Chinese University of Hong Kong under the supervision of [https://www.cse.cuhk.edu.hk/irwin.king/home Irwin King] and [https://www.cse.cuhk.edu.hk/lyu/ Michael R. Lyu].
+I am a PhD student in Language Technologies Institute, School of Computer Science at Carnegie Mellon University (CMU), working with [Jaime Carbonell](https://www.cs.cmu.edu/~jgc/) and [Graham Neubig](http://www.phontron.com/). I am fortunately supported by Research Fellowship at CMU. I spent the summer and fall of 2019 interning at Google AI (Translate Team) on cross-lingual transfer learning research, and interned at Microsoft Research Redmond on multi-modal machine learning research during the summer of 2018. Prior to joining CMU, I earned my M.Phil. degree at Chinese University of Hong Kong under the supervision of [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) and [Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/).
 
 
