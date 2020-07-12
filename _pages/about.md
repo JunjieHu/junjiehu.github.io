@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://www.lti.cs.cmu.edu/">Language Technologies Institute</a>
 
 profile:
   align: right
@@ -16,8 +16,6 @@ news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student in Language Technologies Institute, School of Computer Science at Carnegie Mellon University (CMU), working with [https://www.cs.cmu.edu/~jgc/ Jaime Carbonell] and [http://www.phontron.com/ Graham Neubig]. I am fortunately supported by Research Fellowship at CMU. I spent the summer and fall of 2019 interning at Google AI (Translate Team) on cross-lingual transfer learning research, and interned at Microsoft Research Redmond on multi-modal machine learning research during the summer of 2018. Prior to joining CMU, I earned my M.Phil. degree at Chinese University of Hong Kong under the supervision of [https://www.cse.cuhk.edu.hk/irwin.king/home Irwin King] and [https://www.cse.cuhk.edu.hk/lyu/ Michael R. Lyu].
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
