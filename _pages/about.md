@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 <!-- description: <a href="https://www.lti.cs.cmu.edu/">Language Technologies Institute</a>, <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, <a href="https://www.cmu.edu/">Carnegie Mellon University</a> -->
