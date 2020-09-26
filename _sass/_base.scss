@@ -4,16 +4,35 @@
 
 // Typography
 
+
+
 a, table.table a {
   color: $theme-color;
+  font-size: $base-font-size;
   &:hover {
+    text-decoration: none;
     color: $theme-color;
-    text-decoration: underline;
+    font-size: $base-font-size;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   &:hover:after {
+    text-decoration: none;
     width: 100%;
   }
 }
+
+.table-hover {
+  border-spacing: 0px;
+  margin-bottom: -20px;
+  padding-bottom: -20px;
+  padding-top: -20px;
+}
+.table td {
+  border: none;  // [JH] remove the uppter border
+  padding-bottom: 0px;
+}
+
 
 // Math
 
@@ -52,6 +71,22 @@ a, table.table a {
   border-bottom: 1px solid $grey-color-light;
   opacity: 0.95;
 }
+
+.navbar .nav > li.current-menu-ancestor > a {
+    font-size: 1.2rem;
+    color: #b00;
+}
+
+.navbar-nav > li{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.navbar-nav > ul#social {
+    float: right;
+    margin-top: 50px;
+}
+
 .navbar.navbar-light {
   // Remove link decoration
   a {
@@ -122,7 +157,7 @@ a, table.table a {
 // News
 
 .news table td {
-  font-size: 1rem;
+  font-size: $base-font-size;
 }
 
 
@@ -250,25 +285,28 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 28px;     // [JH] margin between the section title and the paper list
   h2.year {
-    color: $grey-color-light;
+    color: $grey-color;  // [JH] change the color to grey
     border-top: 1px solid $grey-color-light;
-    padding-top: 1rem;
-    margin-top: 2rem;
+    padding-top: -8rem;
+    margin-top: -1rem;   // [JH] margin between each paper
     margin-bottom: -2rem;
     text-align: right;
   }
   ol.bibliography {
+    font-size: $base-font-size;   // [JH] change the bibliography font size
     list-style: none;
     padding: 0;
     margin-top: 0;
-
     li {
       margin-bottom: 1rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
+        padding-left: -5rem;
+        padding-right: -50rem;
+        max-width: 100px;   // [JH] adjust space between abbr and title/author
         abbr {
           display: inline-block;
           background-color: $theme-color;
@@ -277,12 +315,15 @@ footer.sticky-bottom {
         }
       }
       span {
+        width:120%;   // [JH] adjust the width of the paper's title/author/proceedings
         display: block;
       }
       .title {
         font-weight: bolder;
+        font-size: $base-font-size;
       }
       .author {
+        font-size: $base-font-size;
         a {
           border-bottom: 1px dashed $theme-color;
           &:hover {

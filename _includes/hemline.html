@@ -58,3 +58,34 @@ ga('create', '{{ site.google_analytics }}', 'auto');
 ga('send', 'pageview');
 </script>
 {% endif %}
+
+
+<script type="text/javascript">
+  function display(id) {
+    var currentDisplay = document.getElementById(id).style.display;
+    if (currentDisplay == 'none') {
+        document.getElementById(id).style.display = "inline";
+    }
+    else {
+        document.getElementById(id).style.display = "none";
+    }
+  }
+
+  function onClickHandler(){
+    display('pub-list-by-selected');
+    display('pub-list-by-date')
+  }
+    // $("#pub-by-selected").on('click', function() {
+    //   document.getElementById('pub-list-by-date').style.display = "none";
+    //   document.getElementById('pub-list-by-selected').style.display = "inline";
+    //   $('#pub-by-data').attr("style", "");
+    //   $('#pub-by-selected').css({ "color": "#000000", "text-decoration": "underline" });
+    // }
+
+    // $("#pub-by-date").on('click', function() {
+    //   document.getElementById('pub-list-by-date').style.display = "inline";
+    //   document.getElementById('pub-list-by-selected').style.display = "none";
+    //   $('#pub-by-selected').attr("style", "");
+    //   $('#pub-by-date').css({ "color": "#000000", "text-decoration": "underline" });
+    // }
+</script>

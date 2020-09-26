@@ -5,11 +5,11 @@
 
 // Dimensions
 
-$max-content-width: 800px;
+$max-content-width: 1000px;
 
 // Colors
 $red-color:           #FF3636 !default;
-$red-color-dark:      #B71C1C !default;
+$red-color-dark:      #bb0000 !default;
 $orange-color:        #F29105 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
@@ -24,12 +24,17 @@ $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
+$red-color-light:     #F6D8D8 !default;
+
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     darken($grey-color, 25%);
+$grey-color-dark:     darken($grey-color, 2%);
 
 /* Set theme colors *************************/
 $theme-color:         $red-color-dark;
 
 $link-color:          $theme-color;
 $text-color:          #111 !default;
+
+/* Set basic font ********/
+$base-font-size:      1rem;

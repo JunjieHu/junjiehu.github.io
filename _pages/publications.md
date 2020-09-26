@@ -3,27 +3,10 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications by categories in reversed chronological order.
-years: [1956, 1950, 1935, 1905]
+years: [2020, 2019, 2018, 2017, 2016, 2015]
+preyears: [2020, 2019, 2017]
 nav: true
 ---
 
-<h2>Conferences</h2>
-<div class="publications">
+{% include publications.html %}
 
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
-
-
-<h2>Preprints</h2>
-<div class="publications">
-
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f preprint -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
