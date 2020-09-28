@@ -280,3 +280,77 @@
   year={2017},
   booktitle = "AAAI 2017 Fall Symposium on Natural Communication for Human-Robot Collaboration",
 }
+
+@article{6971101,
+  abbr = "IEEE Cybern.",
+  author={Ng, Wing W. Y.  and Hu, Junjie and Yeung, Daniel Yeung and Yin, Shaohua and Roli, Fabio},
+  journal={IEEE Transactions on Cybernetics},
+  title={Diversified Sensitivity-Based Undersampling for Imbalance Classification Problems},
+  year={2015},
+  volume={45},
+  number={11},
+  pages={2402-2412},
+  abstract={Undersampling is a widely adopted method to deal with imbalance pattern classification problems. Current methods mainly depend on either random resampling on the majority class or resampling at the decision boundary. Random-based undersampling fails to take into consideration informative samples in the data while resampling at the decision boundary is sensitive to class overlapping. Both techniques ignore the distribution information of the training dataset. In this paper, we propose a diversified sensitivity-based undersampling method. Samples of the majority class are clustered to capture the distribution information and enhance the diversity of the resampling. A stochastic sensitivity measure is applied to select samples from both clusters of the majority class and the minority class. By iteratively clustering and sampling, a balanced set of samples yielding high classifier sensitivity is selected. The proposed method yields a good generalization capability for 14 UCI datasets.},
+  url={https://ieeexplore.ieee.org/abstract/document/6971101},
+}
+
+@article{hu2017online,
+  abbr={IEEE TNNLS},
+  title={Online nonlinear AUC maximization for imbalanced data sets},
+  author={Hu, Junjie and Yang, Haiqin and Lyu, Michael R and King, Irwin and So, Anthony Man-Cho},
+  journal={IEEE transactions on neural networks and learning systems},
+  volume={29},
+  number={4},
+  pages={882--895},
+  year={2017},
+  publisher={IEEE},
+  abstract={Classifying binary imbalanced streaming data is a significant task in both machine learning and data mining. Previously, online area under the receiver operating characteristic (ROC) curve (AUC) maximization has been proposed to seek a linear classifier. However, it is not well suited for handling nonlinearity and heterogeneity of the data. In this paper, we propose the kernelized online imbalanced learning (KOIL) algorithm, which produces a nonlinear classifier for the data by maximizing the AUC score while minimizing a functional regularizer. We address four major challenges that arise from our approach. First, to control the number of support vectors without sacrificing the model performance, we introduce two buffers with fixed budgets to capture the global information on the decision boundary by storing the corresponding learned support vectors. Second, to restrict the fluctuation of the learned decision function and achieve smooth updating, we confine the influence on a new support vector to its k-nearest opposite support vectors. Third, to avoid information loss, we propose an effective compensation scheme after the replacement is conducted when either buffer is full. With such a compensation scheme, the performance of the learned model is comparable to the one learned with infinite budgets. Fourth, to determine good kernels for data similarity representation, we exploit the multiple kernel learning framework to automatically learn a set of kernels. Extensive experiments on both synthetic and real-world benchmark data sets demonstrate the efficacy of our proposed approach.},
+  url={https://ieeexplore.ieee.org/document/7835710},
+}
+
+@inproceedings{AAAI159578,
+    abbr={AAAI},
+    author = {Junjie Hu and Haiqin Yang and Irwin King and Michael Lyu and Anthony Man-Cho So},
+    title = {Kernelized Online Imbalanced Learning with Fixed Budgets},
+    booktitle = {Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI)},
+    year = {2015},
+    keywords = {},
+    abstract = {Online learning from imbalanced streaming data to capture the nonlinearity and heterogeneity of the data is significant in machine learning and data mining.  To tackle this problem, we propose a kernelized online imbalanced learning (KOIL) algorithm to directly maximize the area under the ROC curve (AUC).  We address two more challenges: 1) How to control the number of support vectors without sacrificing model performance; and 2) how to restrict the fluctuation of the learned decision function to attain smooth updating.  To this end, we introduce two buffers with fixed budgets (buffer sizes) for positive class and negative class, respectively, to store the learned support vectors, which can allow us to capture the global information of the decision boundary.  When determining the weight of a new support vector, we confine its influence only to its $k$-nearest opposite support vectors.  This can restrict the effect of new instances and prevent the harm of outliers.  More importantly, we design a sophisticated scheme to compensate the model after replacement is conducted when either buffer is full.  With this compensation, the learned model approaches the one learned with infinite budgets.  We present both theoretical analysis and extensive experimental comparison to demonstrate the effectiveness of our proposed KOIL.},
+    url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9578}
+}
+
+@inproceedings{gao2015ar,
+  abbr={SOSE},
+  title={Ar-tracker: Track the dynamics of mobile apps via user review mining},
+  author={Gao, Cuiyun and Xu, Hui and Hu, Junjie and Zhou, Yangfan},
+  booktitle={2015 IEEE Symposium on Service-Oriented System Engineering},
+  pages={284--290},
+  year={2015},
+  organization={IEEE},
+  abstract={User-generated reviews on mobile applications (apps) are a valuable source of data for developers to improve the quality of their apps. But the reviews are usually massive in size and span over multiple topics, thus leading to great challenges for developers to efficiently identify the key reviews of interest. In recent studies, automatic user review mining has been recognized as a key solution to address this challenge. The existing methods, however, require extensive human efforts to manually label the training data. Besides, they only analyze the static characteristics over the whole set of collected reviews, while ignoring the dynamic information embedded in the reviews of different time periods. In this paper, we propose 'AR-Tracker', a new framework to mine user reviews without the need of human labeling and track the dynamics from the top-ranked reviews. Through extensive experiments on the reviews of four popular mobile apps collected over 7 months, we show that AR-Tracker can still achieve comparable accuracy with the state-of-the-art methods, e.g., AR-Miner. Additionally, a case study on Facebook reviews further validates the effectiveness of 'AR-Tracker' in tracking the dynamics.},
+  url={https://ieeexplore.ieee.org/abstract/document/7133542},
+}
+
+@inproceedings{huHCOMP16,
+  abbr={HCOMP},
+  author = {Junjie Hu and Jean Oh and Anatole Gershman},
+  title = {Learning Lexical Entries for Robotic Commands via Paraphrasing},
+  booktitle = {AAAI conference on Human Computation},
+  year = {2016},
+  url = {https://arxiv.org/pdf/1609.02549.pdf},
+  abstract = {Robotic commands in natural language usually contain various spatial descriptions that are semantically similar but syntactically different. Mapping such syntactic variants into semantic concepts that can be understood by robots is challenging due to the high flexibility of natural language expressions. To tackle this problem, we collect robotic commands for navigation and manipulation tasks using crowdsourcing. We further define a robot language and use a generative machine translation model to translate robotic commands from natural language to robot language. The main purpose of this paper is to simulate the interaction process between human and robots using crowdsourcing platforms, and investigate the possibility of translating natural language to robot language with paraphrases.},
+}
+
+@inproceedings{yangICLR16,
+  abbr={ICLR},
+  author = {Zhilin Yang and Bhuwan Dhingra and Ye Yuan and Junjie Hu and William W. Cohen and Ruslan Salakhutdinov.},
+  title = {Words or Characters? Fine-grained Gating for Reading Comprehension},
+  booktitle = {International Conference on Learning Representations},
+  year = {2016},
+  url = {https://arxiv.org/pdf/1611.01724.pdf},
+  abstract = {Previous work combines word-level and character-level representations using concatenation or scalar weighting, which is suboptimal for high-level tasks like reading comprehension. We present a fine-grained gating mechanism to dynamically combine word-level and character-level representations based on properties of the words. We also extend the idea of fine-grained gating to modeling the interaction between questions and paragraphs for reading comprehension. Experiments show that our approach can improve the performance on reading comprehension tasks, achieving new state-of-the-art results on the Children's Book Test dataset. To demonstrate the generality of our gating mechanism, we also show improved results on a social media tag prediction task.},
+}
+
+
+
+
