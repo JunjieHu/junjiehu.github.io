@@ -12,7 +12,9 @@ profile:
     <br> <a href="https://www.cs.cmu.edu/">School of Computer Science </a> 
     <br> <a href="https://www.cmu.edu/">Carnegie Mellon University </a> 
     <br> Office: GHC 5503 
-    <br> Email: junjieh [AT] cs (DOT) cmu (DOT) edu</a> 
+    <br> Email: junjieh [AT] cs (DOT) cmu (DOT) edu
+    <br> <b>Update: I am currently looking for academic jobs starting in 2021! 
+    <br> [<a href="assets/pdf/CV_JunjieHu.pdf">Curriculum Vitae</a>][<a href="assets/pdf/ResearchStatement_JunjieHu.pdf">Research Statement</a>][<a href="assets/pdf/TeachingStatement_JunjieHu.pdf">Teaching Statement</a>]</b>
 
 news: false
 social: false
