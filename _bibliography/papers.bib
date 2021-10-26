@@ -1,5 +1,45 @@
 ---
 ---
+@inproceedings{hu21wmt,
+    abbr = "WMT",
+    title = {Phrase-level Active Learning for Neural Machine Translation},
+    author = {Junjie Hu and Graham Neubig},
+    booktitle = {The Sixth Conference on Machine Translation (WMT)},
+    address = {Punta Cana, Dominican Republic},
+    month = {November},
+    year = {2021},
+    abstract = "Neural machine translation (NMT) is sensitive to domain shift. In this paper, we address this problem in an active learning setting where we can spend a given budget on translating in-domain data, and gradually fine-tune a pre-trained out-of-domain NMT model on the newly translated data. Existing active learning methods for NMT usually select sentences based on uncertainty scores, but these methods require costly translation of full sentences even when only one or two key phrases within the sentence are informative. To address this limitation, we re-examine previous work from the phrase-based machine translation (PBMT) era that selected not full sentences, but rather individual phrases. However, while incorporating these phrases into PBMT systems was relatively simple, it is less trivial for NMT systems, which need to be trained on full sequences to capture larger structural properties of sentences unique to the new domain. To overcome these hurdles, we propose to select both full sentences and individual phrases from unlabelled data in the new domain for routing to human translators. In a German-English translation task, our active learning approach achieves consistent improvements over uncertainty-based sentence selection methods, improving up to 1.2 BLEU score over strong active learning baselines.",
+    url = "https://arxiv.org/abs/2106.11375",
+    code = "https://github.com/JunjieHu/phrase-al-nmt"
+}
+
+@inproceedings{reid21emnlp,
+    abbr = "EMNLP",
+    selected = "1",
+    code = "https://github.com/machelreid/afromt",
+    title = {Afro{MT}: Pretraining Strategies and Reproducible Benchmarks for Translation of 8 African Languages},
+    author = {Machel Reid and Junjie Hu and Graham Neubig and Yutaka Matsuo},
+    booktitle = {Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+    address = {Punta Cana, Dominican Republic},
+    month = {November},
+    url = {https://arxiv.org/abs/2109.04715},
+    year = {2021},
+    abstract = "Reproducible benchmarks are crucial in driving progress of machine translation research. However, existing machine translation benchmarks have been mostly limited to high-resource or well-represented languages. Despite an increasing interest in low-resource machine translation, there are no standardized reproducible benchmarks for many African languages, many of which are used by millions of speakers but have less digitized textual data. To tackle these challenges, we propose AfroMT, a standardized, clean, and reproducible machine translation benchmark for eight widely spoken African languages. We also develop a suite of analysis tools for system diagnosis taking into account the unique properties of these languages. Furthermore, we explore the newly considered case of low-resource focused pretraining and develop two novel data augmentation-based strategies, leveraging word-level alignment information and pseudo-monolingual data for pretraining multilingual sequence-to-sequence models. We demonstrate significant improvements when pretraining on 11 languages, with gains of up to 2 BLEU points over strong baselines. We also show gains of up to 12 BLEU points over cross-lingual transfer baselines in data-constrained scenarios. All code and pretrained models will be released as further steps towards larger reproducible benchmarks for African languages."
+}
+
+@inproceedings{ruder21emnlp,
+    abbr = "EMNLP",
+    selected = "1",
+    title = {{XTREME}-R: Towards More Challenging and Nuanced Multilingual Evaluation},
+    author = {Sebastian Ruder and Noah Constant and Jan Botha and Aditya Siddhant and Orhan Firat and Jinlan Fu and Pengfei Liu and Junjie Hu and Dan Garrette and Graham Neubig and Melvin Johnson},
+    booktitle = {Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+    address = {Punta Cana, Dominican Republic},
+    month = {November},
+    url = {https://arxiv.org/abs/2104.07412},
+    year = {2021},
+    abstract = "Machine learning has brought striking advances in multilingual natural language processing capabilities over the past year. For example, the latest techniques have improved the state-of-the-art performance on the XTREME multilingual benchmark by more than 13 points. While a sizeable gap to human-level performance remains, improvements have been easier to achieve in some tasks than in others. This paper analyzes the current state of cross-lingual transfer learning and summarizes some lessons learned. In order to catalyze meaningful progress, we extend XTREME to XTREME-R, which consists of an improved set of ten natural language understanding tasks, including challenging language-agnostic retrieval tasks, and covers 50 typologically diverse languages. In addition, we provide a massively multilingual diagnostic suite (MultiCheckList) and fine-grained multi-dataset evaluation capabilities through an interactive public leaderboard to gain a better understanding of such models.",
+    code = "https://github.com/google-research/xtreme",
+}
 
 @inproceedings{hu21explicit,
     abbr = "NAACL",
@@ -9,7 +49,9 @@
     booktitle = {Proceedings of the 2021 Conference of the North {A}merican Chapter of the Association for Computational Linguistics},
     month = {June},
     url = {https://arxiv.org/pdf/2010.07972.pdf},
-    year = {2021}
+    year = {2021},
+    abstract = "Pre-trained cross-lingual encoders such as mBERT (Devlin et al., 2019) and XLM-R (Conneau et al., 2020) have proven impressively effective at enabling transfer-learning of NLP systems from high-resource languages to low-resource languages. This success comes despite the fact that there is no explicit objective to align the contextual embeddings of words/sentences with similar meanings across languages together in the same space. In this paper, we present a new method for learning multilingual encoders, AMBER (Aligned Multilingual Bidirectional EncodeR). AMBER is trained on additional parallel data using two explicit alignment objectives that align the multilingual representations at different granularities. We conduct experiments on zero-shot cross-lingual transfer learning for different tasks including sequence tagging, sentence retrieval and sentence classification. Experimental results on the tasks in the XTREME benchmark (Hu et al., 2020) show that AMBER obtains gains of up to 1.1 average F1 score on sequence tagging and up to 27.3 average accuracy on retrieval over the XLM-R-large model which has 3.2x the parameters of AMBER. Our code and models are available at http://github.com/junjiehu/amber.",
+    code = "http://github.com/junjiehu/amber"
 }
 
 @inproceedings{huang21visionlang,
@@ -19,7 +61,9 @@
   booktitle = {Proceedings of the 2021 Conference of the North {A}merican Chapter of the Association for Computational Linguistics},
   year = {2021},
   month = {June},
-  url = "https://openreview.net/pdf?id=XC-PgiyCwj3"
+  url = "https://openreview.net/pdf?id=XC-PgiyCwj3",
+  abstract = "This paper studies zero-shot cross-lingual transfer of vision-language models. Specifically, we focus on multilingual text-to-video search and propose a Transformer-based model that learns contextual multilingual multimodal embeddings. Under a zero-shot setting, we empirically demonstrate that performance degrades significantly when we query the multilingual text-video model with non-English sentences. To address this problem, we introduce a multilingual multimodal pre-training strategy, and collect a new multilingual instructional video dataset (Multi-HowTo100M) for pre-training. Experiments on VTT show that our method significantly improves video search in non-English languages without additional annotations. Furthermore, when multilingual annotations are available, our method outperforms recent baselines by a large margin in multilingual text-to-video search on VTT and VATEX; as well as in multilingual text-to-image search on Multi30K. Our model and Multi-HowTo100M is available at http://github.com/berniebear/Multi-HT100M.",
+  code = "http://github.com/berniebear/Multi-HT100M"
 }
 
 @inproceedings{hu20icml,
@@ -31,7 +75,8 @@
     booktitle = {International Conference on Machine Learning (ICML)},
     month = {July},
     url = {https://arxiv.org/pdf/2003.11080.pdf},
-    year = {2020}
+    year = {2020},
+    abstract = "Much recent progress in applications of machine learning models to NLP has been driven by benchmarks that evaluate models across a wide variety of tasks. However, these broad-coverage benchmarks have been mostly limited to English, and despite an increasing interest in multilingual models, a benchmark that enables the comprehensive evaluation of such methods on a diverse range of languages and tasks is still missing. To this end, we introduce the Cross-lingual TRansfer Evaluation of Multilingual Encoders XTREME benchmark, a multi-task benchmark for evaluating the cross-lingual generalization capabilities of multilingual representations across 40 languages and 9 tasks. We demonstrate that while models tested on English reach human performance on many tasks, there is still a sizable gap in the performance of cross-lingually transferred models, particularly on syntactic and sentence retrieval tasks. There is also a wide spread of results across languages. We release the benchmark to encourage research on cross-lingual learning methods that transfer linguistic knowledge across a diverse and representative set of languages and tasks."
 }
 
 @inproceedings{han20icml,
@@ -41,7 +86,8 @@
     booktitle = {International Conference on Machine Learning (ICML)},
     month = {July},
     url = {},
-    year = {2020}
+    year = {2020},
+    abstract = "The goal of universal machine translation is to learn to translate between any pair of languages, given a corpus of paired translated documents for \emph{a small subset} of all pairs of languages. Despite impressive empirical results and an increasing interest in massively multilingual models, theoretical analysis on translation errors made by such universal machine translation models is only nascent. In this paper, we formally prove certain impossibilities of this endeavour in general, as well as prove positive results in the presence of additional (but natural) structure of data. For the former, we derive a lower bound on the translation error in the many-to-many translation setting, which shows that any algorithm aiming to learn shared sentence representations among multiple language pairs has to make a large translation error on at least one of the translation tasks, if no assumption on the structure of the languages is made. For the latter, we show that if the paired documents in the corpus follow a natural \emph{encoder-decoder} generative process, we can expect a natural notion of ``generalization'': a linear number of language pairs, rather than quadratic, suffices to learn a good representation. Our theory also explains what kinds of connection graphs between pairs of languages are better suited: ones with longer paths result in worse sample complexity in terms of the total number of documents per language pair needed. We believe our theoretical insights and implications contribute to the future algorithmic design of universal machine translation."
 }
 
 

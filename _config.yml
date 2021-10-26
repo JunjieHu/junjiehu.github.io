@@ -12,8 +12,8 @@ footer_text: > # with <a href="https://github.com/alshedivat/al-folio">al-folio<
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>. 
 
 
-url: www.cs.cmu.edu/  # the base hostname & protocol for your site
-baseurl: /~junjieh #/al-folio # the subpath of your site, e.g. /blog/
+url: https://junjiehu.github.io  # the base hostname & protocol for your site
+baseurl: #/al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
