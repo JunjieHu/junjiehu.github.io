@@ -5,15 +5,14 @@ permalink: /
 
 profile:
   align: right
-  image: junjiehu.jpg
+  image: junjiehu.png
   address: >
-    <br> Ph.D. Candidate
-    <br> <a href="https://www.lti.cs.cmu.edu/">Language Technologies Institute </a> 
-    <br> <a href="https://www.cs.cmu.edu/">School of Computer Science </a> 
-    <br> <a href="https://www.cmu.edu/">Carnegie Mellon University </a> 
-    <br> Office: GHC 5503 
-    <br> Email: junjieh [AT] cs (DOT) cmu (DOT) edu
-    <br> <b>Update: I will be joining UW Madison as a tenure-track Assistant Professor in 2021 Fall! I am actively looking for self-motivated students starting Fall 2021. If you are interested in working with me, please send me an email with your CV. </b>
+    <br> Assistant Professor
+    <br> <a href="https://www.biostat.wisc.edu/">Biostatistics & Medical Informatics </a> 
+    <br> <a href="https://www.cs.wisc.edu/">Computer Science </a> 
+    <br> <a href="https://www.wisc.edu/">University of Wisconsin-Madison </a> 
+    <br> Office: 2120 UW-Biotech Center, 425 Henry Mall, Madison, WI 53706
+    <br> Email: junjie.hu@wisc.edu
     <br> [<a href="assets/pdf/CV_JunjieHu.pdf">Curriculum Vitae</a>][<a href="assets/pdf/ResearchStatement_JunjieHu.pdf">Research Statement</a>]</b>
 
 news: false
@@ -25,4 +24,8 @@ preyears: [2021, 2019, 2017]
 
 
 ---
-I am a PhD candidate in Language Technologies Institute, School of Computer Science at Carnegie Mellon University (CMU), working with [Jaime Carbonell](https://www.cs.cmu.edu/~jgc/) and [Graham Neubig](http://www.phontron.com/). I am fortunately supported by Research Fellowship at CMU. I spent the summer and fall of 2019 interning at Google AI (Translate Team) on cross-lingual transfer learning research, and interned at Microsoft Research Redmond on multi-modal machine learning research during the summer of 2018. Prior to joining CMU, I earned my M.Phil. degree at Chinese University of Hong Kong under the supervision of [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) and [Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/).
+I am an assistant professor in the Department of Biostatistics and Department of Computer Science at the University of Wisconsin-Madison. I obtained my Ph.D. from Carnegie Mellon University, where I worked with Jaime Carbonell and Graham Neubig. 
+
+I have a broad interest in <b>natural language processing</b> and <b>machine learning</b>. In particular, I work on multilingual NLP, transfer learning, multimodal learning, and their applications to support human-machine communications. My research goal is to build robust intelligent systems that evolve with changes in the environment and interact with people speaking different languages.
+
+<b>Prospective students</b>: I am always looking for excellent PhD students to join our lab. Please apply to the [CS](https://www.cs.wisc.edu/graduate/graduate-admissions-faq/) or [BDS](https://biostat.wiscweb.wisc.edu/education/current-students/phd-bds/) program, and mention my name in your application and research statement. I'm also happy to work with masters or undergraduate students at UW-Madison. If you are interested, please send me an email.
