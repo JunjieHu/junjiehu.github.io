@@ -11,7 +11,7 @@ profile:
     <br> <a href="https://www.biostat.wisc.edu/">Biostatistics & Medical Informatics </a> 
     <br> <a href="https://www.cs.wisc.edu/">Computer Science </a> 
     <br> <a href="https://www.wisc.edu/">University of Wisconsin-Madison </a> 
-    <br> Office: 2120 UW-Biotech Center, 425 Henry Mall, Madison, WI 53706
+    <br> Office: 4735 MSC, 1300 University Ave, Madison, WI 53706
     <br> Email: junjie.hu@wisc.edu
     <br> [<a href="assets/pdf/ResearchStatement_JunjieHu.pdf">Research Statement</a>]
 
