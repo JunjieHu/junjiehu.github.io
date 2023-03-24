@@ -10,6 +10,7 @@ profile:
     <br> Assistant Professor
     <br> <a href="https://www.biostat.wisc.edu/">Biostatistics & Medical Informatics </a> 
     <br> <a href="https://www.cs.wisc.edu/">Computer Science </a> 
+    <br> <a href="https://datascience.wisc.edu/institute/">Data Science Institute </a> 
     <br> <a href="https://www.wisc.edu/">University of Wisconsin-Madison </a> 
     <br> Office: 4735 MSC, 1300 University Ave, Madison, WI 53706
     <br> Email: junjie.hu@wisc.edu
@@ -24,7 +25,7 @@ preyears: [2022, 2019, 2017]
 
 
 ---
-I am an assistant professor in the Department of Biostatistics and Department of Computer Science at the University of Wisconsin-Madison. I obtained my Ph.D. from School of Computer Science at Carnegie Mellon University, where I worked with Jaime Carbonell and Graham Neubig. 
+I am an assistant professor with appointments in the Department of Biostatistics, Department of Computer Science and Data Science Institute at the University of Wisconsin-Madison. I obtained my Ph.D. from School of Computer Science at Carnegie Mellon University, where I worked with Jaime Carbonell and Graham Neubig. 
 
 I have a broad interest in <b>natural language processing</b> and <b>machine learning</b>. In particular, I work on multilingual NLP, transfer learning, multimodal learning, and their applications to support human-machine communications. My research goal is to build robust intelligent systems that evolve with changes in the environment and interact with people speaking different languages.
 
