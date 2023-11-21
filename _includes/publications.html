@@ -16,22 +16,16 @@
     /
     <a href="" id="pub-by-date">show by date</a>
     ] -->
-<h3 id="publications" name="publications">Publications </h3>
-
-<!--  <div class="info-list">
-  <h3 id="publications" name="publications">Publications
-  <div class="onoffswitch">
-  <input type="checkbox" onclick="onClickHandler();" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
-  <label class="onoffswitch-label" for="myonoffswitch">
-      <span class="onoffswitch-inner"></span>
-      <span class="onoffswitch-switch"></span>
-  </label>
-  </div>
+<h3 id="publications" name="publications">Recent Preprints</h3>
+<div class="publications" id="preprint-list-by-date" style="display:inline">
+{% for y in page.preyears %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f preprint -q @*[year={{y}}]* %}
+{% endfor %}
 </div>
-<p style="top-margin: 110px;"></p> -->
 
-<!-- </div> -->
-
+<h3>Publications </h3>
+</br>
 <div class="publications" id="pub-list-by-date" style="display:inline">
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
@@ -44,11 +38,5 @@
 </div>
 
 
-<h3>Preprints</h3>
-<div class="publications">
-{% for y in page.preyears %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f preprint -q @*[year={{y}}]* %}
-{% endfor %}
-</div>
+
 
