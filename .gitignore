@@ -3,5 +3,4 @@
 .DS_store
 .ruby-version
 Gemfile.lock
-assets/css/
 _site/
