@@ -36,6 +36,8 @@ I have a broad interest in <b>natural language processing</b> and <b>machine lea
   <li><b style="color:#bb0000;">Evaluation and Mechanistic Interpretation</b>: Exploring robust methods for evaluating and interpreting black-box foundation models.</li>
 </ul> 
 
+Our research has been supported by National Science Foundation, National Institutes of Health, Department of Defense, UW ICTR, Wisconsin Alumni Research Foundation, American Family Insurance, Microsoft, NVIDIA, etc.
+
 
 <b style="color:#bb0000;">Prospective PhD students (Updated on Aug 8 2025)</b>: Thanks for your interest! I may not be able to reply to all inqueries due to the large amounts of emails. If you still want to bring my attention to your papers by email, please add <b style="color:#bb0000;">"[prospective student to Hulab]"</b> in the email subject. I'll update hiring information on my website. <b style="color:#bb0000;">I am looking for 1 or 2 creative and curiosity-driven PhD students to join our lab in the fall of 2025</b>. The admission decision at UW-Madison is committee-based. Please apply to the [CS](https://www.cs.wisc.edu/graduate/graduate-admissions-faq/) program, and mention my name in your application and research statement. UW-Madison is an excellent place for research, and Madison is a wonderful city to live in. Please check out these videos (Why [UW-Madison](https://www.youtube.com/watch?v=8cRE4F8GOBE), [Madison](https://www.youtube.com/watch?v=XTJA5alrisQ?)). 
 
