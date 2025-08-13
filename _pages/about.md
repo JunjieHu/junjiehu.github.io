@@ -8,8 +8,8 @@ profile:
   image: junjiehu.png
   address: >
     <br> Assistant Professor
-    <br> <a href="https://www.cs.wisc.edu/">Computer Science </a> 
-    <br> <a href="https://www.biostat.wisc.edu/">Biostatistics & Medical Informatics </a> 
+    <br> <a href="https://www.cs.wisc.edu/">Department of Computer Sciences </a> 
+    <br> <a href="https://www.biostat.wisc.edu/">Department of Biostatistics & Medical Informatics </a> 
     <br> <a href="https://datascience.wisc.edu/institute/">Data Science Institute </a> 
     <br> <a href="https://www.wisc.edu/">University of Wisconsin-Madison </a> 
     <br> Office: Morgridge Hall 5661, 1205 University Ave, Madison, WI 53706
@@ -25,7 +25,7 @@ preyears: [2025, 2024]
 
 
 ---
-I am an assistant professor jointly in the Department of Computer Science and Department of Biostatistics at the University of Wisconsin-Madison. I am also affiliated with Data Science Institute. I obtained my Ph.D. from School of Computer Science at Carnegie Mellon University, where I worked with Jaime Carbonell and Graham Neubig. 
+I am an Assistant Professor jointly in the Department of Computer Science and Department of Biostatistics at the University of Wisconsin-Madison. I am a faculty affiliate with Data Science Institute. I obtained my Ph.D. from School of Computer Science at Carnegie Mellon University, where I worked with Jaime Carbonell and Graham Neubig. 
 
 I have a broad interest in <b>natural language processing</b> and <b>machine learning</b>. My research goal is to build robust intelligent AI agents that adapt rapidly to dynamic environments and communicate effectively with people speaking different languages. In particular, my research focuses on algorithmic design and fundamental understanding of machine learning models in NLP that enable safe deployment in the wild. Most recently, I'm fascinated by understanding behaviors of large language models (LLMs), adapting them effectively to knowledge-intensive reasoning tasks, and aligning them safely with users from diverse backgrounds. My specific topics of interest include the following aspects of LLMs:
 
