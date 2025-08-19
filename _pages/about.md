@@ -12,7 +12,7 @@ profile:
     <br> <a href="https://www.biostat.wisc.edu/">Department of Biostatistics & Medical Informatics </a> 
     <br> <a href="https://datascience.wisc.edu/institute/">Data Science Institute </a> 
     <br> <a href="https://www.wisc.edu/">University of Wisconsin-Madison </a> 
-    <br> Office: Morgridge Hall 5661, 1205 University Ave, Madison, WI 53706
+    <br> Office: Morgridge Hall 5663, 1205 University Ave, Madison, WI 53706
     <br> Office phone: +1-6082656118
     <br> Email: junjie.hu@wisc.edu or jhu@cs.wisc.edu
 
