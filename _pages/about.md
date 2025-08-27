@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: junjiehu.png
+  image: junjie.png
   address: >
     <br> Assistant Professor
     <br> <a href="https://www.cs.wisc.edu/">Department of Computer Sciences </a> 
