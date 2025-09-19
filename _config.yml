@@ -132,8 +132,8 @@ scholar:
   style: apa
   locale: en
 
-  sort_by: year
-  order: descending
+  sort_by: year,abbr
+  order: descending,ascending
 
   source: /_bibliography/
   bibliography: papers.bib
